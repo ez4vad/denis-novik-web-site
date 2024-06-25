@@ -1,3 +1,6 @@
+body, input, textarea, button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
 a, button {
     cursor: pointer;
 }
@@ -5,12 +8,15 @@ a:hover {
     color: black;
 }
 .navi {
+    display: flex;
+    justify-content: center;
     text-align: center;
     color:  black;
     text-decoration: none;
     font-size: 18px;
     margin-top: 25px;
    margin-bottom: 25px;
+   list-style: none;
 }
 .nav-link {
     color:  #828282;
@@ -35,12 +41,11 @@ a:hover {
     font-weight: 700;
     font-size: 48px;
     height: 60px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     line-height: 65.37px;
     margin-right: 37.5%;
 }
-.c1 {
+.denis_novik {
     text-align: center;
 }
 .bg {
@@ -55,7 +60,6 @@ a:hover {
     
 }
 .aboutme {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 34px;
 font-weight: 700;
 line-height: 46.3px;
@@ -70,7 +74,6 @@ padding-top: 100px;
     size: 18px;
 }
 .p1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
@@ -78,7 +81,6 @@ padding-top: 100px;
     padding-top: 10px;
 }
 .p2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
@@ -86,7 +88,6 @@ padding-top: 100px;
     padding-top: 10px;
 }
 .p3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
@@ -94,7 +95,6 @@ padding-top: 100px;
     padding-top: 10px;
 }
 .skill {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 46.3px;
@@ -102,7 +102,6 @@ padding-top: 100px;
     padding-top: 100px;
 }
 .p4 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
@@ -110,7 +109,6 @@ padding-top: 100px;
 
 }
 .text_skills {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 19.07px;
@@ -125,10 +123,10 @@ padding-top: 100px;
 }
 
 .text_skills1 {
-display: inline-block;
-padding-right: 97px;
-padding-top: 50px;
-color: #828282;
+    display: inline-block;
+    padding-right: 97px;
+    padding-top: 50px;
+    color: #828282;
 }
 .star {
     padding-top: 80px;
@@ -142,7 +140,6 @@ color: #828282;
     height: 2268px;
 }
 .portfolio_text {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 46.3px;
@@ -162,17 +159,15 @@ color: #828282;
 }
 .online {
     text-decoration: underline;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
     text-align: center; 
 }
-.aa {
+.content_project {
     padding-top: 20px;
 }
 .contacts {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 46.3px;
@@ -180,7 +175,6 @@ color: #828282;
     margin-top: 100px;
 }
 .pf {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.51px;
@@ -206,12 +200,11 @@ color: #828282;
     display: inline-block;
     padding-left: 24px;
     margin-right: 24px;
-    margin-top: -5px;
+    margin-top: 30px;
     
 }
 
 .textfooter {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 19.07px;
