@@ -1,0 +1,214 @@
+body, input, textarea, button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+a, button {
+    cursor: pointer;
+}
+a:hover {
+    color: black;
+}
+.navi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 25px;
+   margin-bottom: 25px;
+   list-style: none;
+}
+.nav-link {
+    color:  #828282;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-link1 {
+    color:  black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.line {
+    color: gray;
+    width: 970px;
+}
+.denis {
+
+}
+.novik {
+    
+    font-weight: 700;
+    font-size: 48px;
+    height: 60px;
+    font-weight: 700;
+    line-height: 65.37px;
+    margin-right: 37.5%;
+}
+.denis_novik {
+    text-align: center;
+}
+.bg {
+    background-color: #F6F6F6;
+    height: 500px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -33px;
+}
+.about {
+    text-align: center;
+    
+}
+.aboutme {
+font-size: 34px;
+font-weight: 700;
+line-height: 46.3px;
+text-align: center;
+padding-top: 100px;
+}
+.text1 {
+    width: Fixed (480px)px;
+    height: Fixed (210px)px;
+    gap: 30px;
+    opacity: 0px;
+    size: 18px;
+}
+.p1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center;
+    padding-top: 10px;
+}
+.p2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center;
+    padding-top: 10px;
+}
+.p3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center;
+    padding-top: 10px;
+}
+.skill {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46.3px;
+    text-align: center;
+    padding-top: 100px;
+}
+.p4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center;
+
+}
+.text_skills {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    
+
+
+}
+
+.text_skills1 {
+    display: inline-block;
+    padding-right: 97px;
+    padding-top: 50px;
+    color: #828282;
+}
+.star {
+    padding-top: 80px;
+}
+.star1 {
+    padding-top: 98px;
+    padding-bottom: 100px;
+}
+.portfolio {
+    background-color: #F6F6F6;
+    height: 2268px;
+}
+.portfolio_text {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46.3px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.fashion {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #F6F6F6;
+    height: 2268px;
+}
+.fashion1 {
+    padding-top: 50px;
+    text-align: center;
+}
+.online {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center; 
+}
+.content_project {
+    padding-top: 20px;
+}
+.contacts {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46.3px;
+    text-align: center;
+    margin-top: 100px;
+}
+.pf {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: center;
+}
+.buttonf {
+    width: 180px;
+    height:44px;
+    color: white;
+    background-color: black;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 60px;
+}
+.links {
+    gap: 30px;
+    opacity: 0px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 24px;
+    margin-right: 24px;
+    margin-top: 30px;
+    
+}
+
+.textfooter {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 100px;
+}
